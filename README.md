@@ -6,7 +6,7 @@ This application generates a random password based on the user's specifications 
 The generator works by using several functions to generate random characters of different types (uppercase letters, lowercase letters, numbers, and symbols) based on the user's selections. Once the character types are selected, the generator generates a password of the specified length by iterating over the selected character types and calling the relevant character generation functions. Finally, the generated password is trimmed to the desired length and displayed to the user in the password input field.
 
 ## Screenshots
-![Login](Application Screenshots/Screenshot 2023-01-30 at 1.30.52 PM.png)
+![Login](https://github.com/Pilotguide9897/Challenge-3-password-generator/blob/main/Application%20Screenshots/Screenshot%202023-01-30%20at%201.24.19%20PM.png)
 ![Login](https://github.com/Pilotguide9897/Challenge-3-password-generator/blob/main/Application%20Screenshots/Screenshot%202023-01-30%20at%201.30.21%20PM.png)
 
 ## Installation
