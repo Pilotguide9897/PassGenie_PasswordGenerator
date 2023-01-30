@@ -5,18 +5,16 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var password = generatePassword();
   var passwordText = document.querySelector("#password");
-
   passwordText.value = password;
-
 }
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
 
-//My code.
+// My Code.
 
-function passGen() {
+function generatePassword() {
   let passLength = prompt("Specify your password length. Note - please select a number between 8 and 128", 20);
 
   // Validate input password length
@@ -87,9 +85,10 @@ function passGen() {
     });
   }
 
-  console.log(generatedPassword);
+  //console.log(generatedPassword);
 
-  finalPassword = generatedPassword.slice(0,length);
+  var finalPassword = generatedPassword.slice(0, passLength);
+
+  return finalPassword;
 }
 
-passGen();
